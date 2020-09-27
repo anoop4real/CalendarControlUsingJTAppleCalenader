@@ -94,7 +94,7 @@ extension ViewController: JTAppleCalendarViewDataSource{
         calendar.scrollingMode = .stopAtEachSection
         
         let startDate = formatter.date(from: "01 01 18")!
-        let endDate = formatter.date(from: "31 12 20")!
+        let endDate = formatter.date(from: "31 12 21")!
         
         let parameters = ConfigurationParameters(startDate: startDate,
                                 endDate: endDate,
